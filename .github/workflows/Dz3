@@ -1,0 +1,17 @@
+import numpy as np
+
+a = np.array([[1,2,1],[-2,1,1]])
+b = np.array([[3,1],[-1,0],[2,4]])
+c = np.array([[-2,2],[1,-1],[1,2]])
+
+
+b = np.array([[3,1],[-1,0],[2,4]])
+print("Scalar Product of Matrix B:\n", np.array([[3,1],[-1,0],[2,4]]) * 2)
+
+A = np.array([[1,2,1],[-2,1,1],[0,0,0]])
+B = np.array([[6,2,0],[-2,0,0],[4,8,0]])
+print('Matrix A :\n', A)
+print('\nMatrix B :\n', B)
+res = np.array([[0,0,0],[0,0,0],[0,0,0]])
+res = A+B
+print('\nResult :\n', res)
